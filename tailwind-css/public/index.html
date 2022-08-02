@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant KaleOne</title>
+</head>
+<body class="font-Poppins">
+    <!-- Baris #1 -->
+    <header>
+        <nav class="container flex items-center mt-4 py-4">
+            <div>
+                <img class="w-60" src="./img/logo.png" alt="">
+            </div>
+
+            <ul class="hidden sm:flex flex-1 justify-end gap-10 uppercase items-center text-xs">
+                <li>Menu</li>
+                <li>Harga</li>
+                <li>Kontak</li>
+                <button class="bg-merah py-3 px-9 uppercase text-white rounded-md" type="button">Login</button>
+            </ul>
+
+            <div class="flex flex-1 justify-end sm:hidden">
+                <img class="w-2/12" src="./icon/menu.svg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Baris #2 main-->
+    <section class="relative mt-5">
+        <div class=" container flex flex-col-reverse lg:flex-row items-center gap-10">
+            <div class="flex flex-1 flex-col gap-5  lg:item-start">
+                <h1 class="text-center text-3xl lg:text-left">Restaurant KaleOne</h1>
+                <p class="text-center text-lg text-abu-abu lg:text-left">
+                Selamat datang di restaurant kami, kami menyediakan berbagai macam makanan dan minuman yang lezat bergizi yang anda dapat nikmati dengan harga yang terjangkau.
+                </p>
+                
+                <div class="flex lg:justify-start justify-center gap-4 flex-wrap px-10 lg:px-0">
+                    <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-putih hover:text-black transition duration-700">Order Sekarang</button>
+                    <button class="py-3 px-5 bg-putih rounded-md hover:bg-abu-abu hover:text-white transition duration-700">Daftar Sekarang</button>
+                </div>
+            </div>
+
+            <div class="flex flex-1 justify-center z-10">
+                <img class="rounded-lg w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/main.jpg" alt="">
+            </div>
+
+            <div class="bg-merah hidden md:block h-80 w-1/2 rounded-l-full absolute right-0 top-32">
+                
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <!-- Baris #3 flip-->
+    <section class="bg-putih mt-20 lg:mt-60">
+    <div class="py-8">
+        <h1 class="text-center text-3xl">Menu Best Seller</h1>
+        <p class="text-center mt-3 text-abu-abu">
+            Menu ini merupakan menu yang paling banyak dipesan oleh customer.
+        </p>
+    </div>
+
+    <div class="relative">
+        <div class="container flex flex-col lg:flex-row items-center gap-x-7 gap-y-4">
+            <div class="flex flex-1 justify-center z-10">
+                <img class="w-5/6 h-5/6 rounded-lg sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/topokki.png" alt="">
+            </div>
+
+            <div class="flex flex-1 flex-col items-center lg:items-start gap-y-3">
+                <h1 class="text-3xl">Sup Topokki</h1>
+                <p class="text-center mt-3 lg:text-left text-abu-abu">
+                    Tteokbokki adalah hidangan Korea berupa tepung beras yang dimasak dalam bumbu gochujang yang pedas dan manis. 
+                </p>
+                <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-putih hover:text-black transition duration-700">Coba Gratis</button>
+            </div>
+        </div>
+            <div class="bg-merah h-80 w-1/2 hidden overflow-hidden lg:block absolute -bottom-24 -left-36 rounded-r-full">
+                
+            </div>
+    </div>
+
+
+    </section>
+
+    <!-- Baris #4 flop-->
+    <section class="relative mt-20">
+        <div class=" container flex flex-col-reverse lg:flex-row items-center gap-10">
+            <div class="flex flex-1 flex-col gap-5  lg:item-start">
+                <h1 class="text-center text-3xl lg:text-left">Sushi Goreng</h1>
+                <p class="text-center text-lg text-abu-abu lg:text-left">
+                    Sushi adalah makanan Jepang yang terdiri dari nasi yang dibentuk bersama lauk berupa makanan laut, daging, sayuran mentah atau sudah dimasak.
+                </p>
+                
+                <div class="flex lg:justify-start justify-center gap-6 flex-wrap px-10 lg:px-0">
+                    <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-putih hover:text-black transition duration-700">Coba Gratis</button>
+                </div>
+            </div>
+
+            <div class="flex flex-1 justify-center z-10">
+                <img class="rounded-lg w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/sushi.jpg" alt="">
+            </div>
+
+            <div class="bg-merah hidden md:block h-80 w-1/2 rounded-l-full absolute right-0 top-32">
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Baris #5  card-->
+    <section class="mt-20 lg:mt-60 bg-putih">
+        <h1 class="text-center text-3xl font-bold">Daftar Menu & Makanan</h1>
+        <hr> <br>
+        
+        <div class="relative mt-4">
+            <div class="container flex flex-col lg:flex-row justify-center items-center gap-x-7 gap-y-4">
+
+                <!-- card 1 -->
+                <div class="card rounded-xl w-80 lg:w-1/3 shadow-lg hover:bg-merah">
+                    <img class="w-full h-60 object-cover rounded-t-xl" src="./img/estimun.webp" alt="">
+                    
+                    <div class="m-2 px-2 py-2">
+                        <h2 class="text-center text-2xl font-bold mt-3">Es Hulk</h2>
+                        <h2 class="text-center">Mulai dari : 7.000</h1>
+                        
+                            <p class="text-center mt-3 lg:text-left text-abu-abu">
+                                Sesuai namanya, minuman yang satu ini berisi serutan timun dengan perasa sirup melon dan perasan jeruk nipis.
+                            </p>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="card rounded-xl w-80 lg:w-1/3 shadow-lg hover:bg-merah">
+                    <img class="w-full h-60 object-cover rounded-t-xl" src="./img/topokki.png" alt="">
+                    
+                    <div class="m-2 px-2 py-2">
+                        <h2 class="text-center text-2xl font-bold mt-3">Sup Topokki</h2>
+                        <h2 class="text-center">Mulai dari : 15.000</h1>
+                            <p class="text-center mt-3 lg:text-left text-abu-abu">
+                                Tteokbokki adalah hidangan Korea berupa tepung beras yang dimasak dalam bumbu gochujang yang pedas dan manis. 
+                            </p>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card rounded-xl w-80 lg:w-1/3 shadow-lg hover:bg-merah">
+                    <img class="w-full h-60 object-cover rounded-t-xl" src="./img/sushi.jpg" alt="">
+                    
+                    <div class="m-2 px-2 py-2">
+                        <h2 class="text-center text-2xl font-bold mt-3">Sushi Goreng</h2>
+                        <h2 class="text-center">Harga : 30.000</h1>
+                            <p class="text-center mt-3 lg:text-left text-abu-abu">
+                                Sushi adalah makanan Jepang yang terdiri dari nasi yang dibentuk bersama lauk berupa ikan maupun daging.
+                            </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Baris #6 rounded-->
+    <section class="mt-20">
+        <div>
+            <div class="flex flex-1 justify-center container flex flex-col items-center">
+            
+                    <img class="rounded-full md:h-60 md:w-60 shadow-lg" src="./img/chef1.jpg" alt="">
+                    <h1 class="text-3xl mt-3 items-center">Chef Namja</h1>
+                    <p class="text-center mt-3 text-abu-abu">
+                        Chef yang berkelamin laki laki.
+                    </p>
+            </div>
+
+            <div class="flex flex-1 justify-center container flex flex-col items-center mt-20">
+            
+                    <img class="rounded-full md:h-60 md:w-60 shadow-lg" src="./img/chef2.jpg" alt="">
+                    <h1 class="text-3xl mt-3 items-center">Chef Yeoja</h1>
+                    <p class="text-center mt-3 text-abu-abu">
+                        chef yang berkelamin perempuan
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Baris #7 FAQ-->
+    <section class="mt-20 lg:mt-60 bg-putih">
+        <div>
+          <div class="text-center">
+            <h1 class="text-3xl">FAQ</h1>
+            <p class="text-abu-abu">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+          </div>
+  
+          <div class="mt-20 lg:mt-20 flex flex-col items-center">
+            <div class="flex gap-5">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              <img class="w-4" src="./icon/arrow.svg" alt="" />
+            </div>
+            <div class="flex flex-row gap-5">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              <img class="w-4" src="./icon/arrow.svg" alt="" />
+            </div>
+            <div class="flex flex-row gap-5">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+              <img class="w-4" src="./icon/arrow.svg" alt="" />
+            </div>
+            <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-putih hover:text-black transition duration-1000 mt-10">Info Lebih Lanjut</button>
+          </div>
+        </div>
+      </section>
+
+    <!-- Baris #8-kontak-->
+    <section class="bg-merah mt-20 py-6 w-full">
+        <div class="container text-center text-putih">
+            <div class="items-center">
+                <p class="mt-20">100.000+ Pelanggan</p>
+                <h1 class="text-3xl">Ikut Berlangganan ?</h1>
+
+                <div class="mt-10" >
+                    <input class=" py-3 px-4 rounded-full text-black" type="text" placeholder="Masukkan Email Anda"/>
+                    <button class="py-3 px-5 bg-biru rounded-full text-putih hover:bg-putih hover:text-black transition duration-1000 mt-5" type="button">Berlangganan Sekarang ??</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-->
+    <footer class="bg-black py-6 w-full  ">
+        <div class="items-center flex flex-col justify-center">
+            <div class="text-white w-1/2 h-1/2 ">
+                <ul class="text-2xl flex flex-row justify-center sm:justify-center lg:justify-center gap-5">
+                    <li>Menu</li>
+                    <li>Harga</li>
+                    <li>Kontak</li>
+                </ul>
+            </div>
+<br><br>
+            <div class="flex justify-center gap-5 w-1/2 h-1/2 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+                <img class="w-10" src="./icon/facebook.svg" alt="">
+                <img class="w-10" src="./icon/twitter.svg" alt="">
+                <img class="w-10" src="./icon/instagram.svg " alt="">
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
